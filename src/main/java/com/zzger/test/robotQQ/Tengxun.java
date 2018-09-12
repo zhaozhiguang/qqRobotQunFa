@@ -27,7 +27,7 @@ public class Tengxun {
     login.findElement(By.id("u")).clear();
     login.findElement(By.id("u")).sendKeys("1422615221");
     login.findElement(By.id("p")).clear();
-    login.findElement(By.id("p")).sendKeys("zhaozhiguang1997");
+    login.findElement(By.id("p")).sendKeys("");
     login.findElement(By.id("login_button")).click();
     //WebDriver main = driver.switchTo().frame("relative=parent");
     driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='查看'])[1]/following::button[1]")).click();
